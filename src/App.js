@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Testing from './Testing'
-import Capitalize from './capitalize';
+import Capitalize from './Capitalize';
 
 function App() {
   const textie = "Learn React"
   var textieUp = Capitalize(textie)
-  
+
   return (
     <div className="App">
       <header className="App-header">
