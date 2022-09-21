@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Testing from './Testing'
 import ArrayMap from './array_map.js'
 import DisplayFamGuy from './DisplayFamGuy';
+import Section2App from './Section2App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-    <DisplayFamGuy />
-    <ArrayMap />
+    <Section2App />
+    {/* <DisplayFamGuy /> */}
+    {/* <ArrayMap /> */}
     {/* <App /> */} 
   </React.StrictMode>
 
